@@ -1,0 +1,77 @@
+/* Establece un fondo elegante */
+body {
+    background-color: #2C3E50;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor */
+.container {
+    max-width: 80%;
+    margin: auto;
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    color: #ECF0F1;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Tabla responsiva */
+.table-responsive {
+    height: 300px;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+/* Diseño de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Cabecera */
+thead tr th {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #381147;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+/* Filas */
+tbody tr {
+    background-color: white;
+    color: black;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Resalta filas al pasar el mouse */
+tbody tr:hover {
+    background-color:rgb(221, 153, 221);
+}
+/* Ajuste en celdas */
+td {
+    padding: 10px;
+    border: 1px solid #BDC3C7;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    .table-responsive {
+        height: auto;
+        overflow: visible;
+    }
+ }
+
+
