@@ -4,12 +4,56 @@ body{
 }
 .navbar{
     background-color: #213448;
+    position: fixed;
+    top: 0;
+  width: 100%;
+  z-index: 999;
     
   }
 .navbar .navbar-brand,.nav-link{
     color:white;
-    font-family: Arial, sans-serif;
+    font-family: Arial;
 }
 .navbar-toggler{
     background-color:  white;
+}
+.carousel-item{
+    max-height: 650px;
+    max-width: auto;
+    object-fit: cover;
+
+}
+.carousel-inner {
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  #informacion, #Historia, #lugares{
+    background-color: #F1EFEC;
+    color:black;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    
+  }
+  h1{
+    text-align: center;
+    font-family:'verdana';
+  }
+  #Historia img{
+    width: 250px; 
+    height: auto;
+    padding: 5px;
+  }
+  .card{
+    background-color: #1A374D;
+    color: white;
+    margin: 10px;
+    border-radius: 10px;
+
+  }
+.card h4{
+    text-align: center;
 }

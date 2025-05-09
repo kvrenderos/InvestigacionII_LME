@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="stylesheet" href="css/estilo.css">
     <title>El salvador </title>
 </head>
 <body>
@@ -18,22 +18,20 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                <a class="nav-link" aria-current="page" href="#carouselExampleInterval">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Datos generales</a>
+                <a  class="nav-link" href="#informacion">Datos generales</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Historia</a>
+                <a class="nav-link" href="#Historia">Historia</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#lugares" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Datos
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Lugares Turisticos</a></li>
-                  <li><a class="dropdown-item" href="#">Gastronomia</a></li>
-                  <li><a class="dropdown-item" href="#"></a></li>
+                  <li><a class="dropdown-item" href="#lugares">Lugares Turisticos</a></li>
                 </ul>
               </li>
             </ul>
@@ -41,42 +39,140 @@
         </div>
       </nav>
       </header>
-      <section>
-      <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
+        
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/img.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="img/img4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/turistico1.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
+            <img src="img/turistico4.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      </section>
       <section>
-        <di>
-            <div>
-                <h1></h1>
-                    <p></p>
-                
+            <div id="informacion">
+                <h1>Datos generales de El Salvador</h1>
+                    <p>El Salvador es un país pequeño y densamente poblado en América Central, con una superficie de 21.040 km² 
+                      y una población de 6.365.000 habitantes. Es conocido por su alta densidad de población y su clima cálido
+                       tropical, aunque la geografía variable causa variaciones climáticas. El Salvador limita con Honduras al 
+                       norte y este, con Guatemala al oeste y con el Océano Pacífico al sur. </p>
+                       <hr color="#213448" size="5">
+                    <ul>
+                      <li><b>Superficie:</b> 21.040 km²</li>
+                      <li><b>Poblacion:</b>6.365.000 habitantes</li>
+                      <li><b>Capital:</b>San Salvador</li>
+                      <li><b>Idioma:</b>Español</li>
+                      <li><b>Moneda:</b>Dollar Estaddounidense</li>
+                    </ul>
             </div>
-        </di>
+            <div id="Historia">
+              <h1>Historia de El Salvador</h1>
+              <img src="img/historia.jpg" class="rounded float-start" alt="...">
+                <p>La historia de El Salvador, desde la conquista española hasta la actualidad, se caracteriza por períodos de 
+                  inestabilidad política, conflictos armados y esfuerzos por la construcción de una nación. Inicialmente, el 
+                  territorio estaba habitado por indígenas pipiles, y fue conquistado por los españoles en el siglo XVI. El país
+                   se independizó de España en 1821, se unió a la República Federal de Centroamérica y luego se declaró independiente
+                    en 1839. A lo largo de su historia, El Salvador ha experimentado dictaduras militares, una guerra civil en los años 80,
+                     y ha logrado construir una democracia post-guerra con períodos de gobierno de diferentes partidos políticos. </p>
+            
+            <h3>Período precolombino:</h3>
+            <p>El territorio de El Salvador fue habitado por diversos pueblos indígenas, incluyendo los pipiles, cuya cultura se asemejaba a la de los aztecas en México.
+              Cuscatlán, actual San Salvador, era la ciudad principal y centro político, religioso y económico de los pipiles. </p>
+            <h3>Conquista y colonia:</h3>
+            <p>La conquista del territorio comenzó en 1524 con la llegada de Pedro de Alvarado. 
+              El Salvador fue parte de la provincia de Guatemala durante el período colonial español. </p>
+            <h3>Independencia y República:</h3>
+            <p>En 1821 se proclamó la independencia de España, uniéndose al Primer Imperio Mexicano y luego a la República Federal de Centroamérica. 
+              El Salvador se declaró república independiente en 1839, marcando el inicio de un período de inestabilidad política y revoluciones. </p>
+            <h3>Dictadura militar y guerra civil:</h3>
+            <p>En 1931 se inició un período de dictadura militar, con el general Maximiliano Hernández Martínez al frente.
+              La guerra civil de los años 80 fue un conflicto armado que dejó un saldo de muertos y desaparecidos sin precedentes.
+              En 1992 se firmaron los Acuerdos de Paz de Chapultepec, que pusieron fin a la guerra y marcaron el inicio de un período de transición hacia la democracia</p>
+            <h3>Posguerra y actualidad:</h3>
+            <p>Después de la guerra, El Salvador ha estado en manos de diferentes partidos políticos, incluyendo ARENA y FMLN.
+              En 2019, Nayib Bukele asumió la presidencia bajo la bandera del partido Gana, impulsando Nuevas Ideas y ganando las elecciones legislativas y municipales de 2021. </p>
+      </div>
+      <div id="lugares">
+        <h1>Lugares Turisticos de El Salvador</h1>
+        <div class="d-flex justify-content-around">
+          <div class="card" style="width: 18rem;">
+            <img src="img/turistico3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-text">El tunco</h3>
+              <p class="card-text">La playa El Tunco (una palabra muy salvadoreña para referirse a los cerdos), es el destino más emblemático del surf en El Salvador.
+                Su nombre se debe a una inmensa roca, semi sumergida en su playa, que en alguna época remota, sugería la forma de este simpático animal.
+                Visitado semanalmente por cientos de turistas locales y extranjeros, el que allá por los años setentas y ochentas fue un pequeño caserío,
+                al lado de un tranquilo estero; se ha convertido en un punto de peregrinación obligado para el surfista internacional y de quienes buscan 
+                sumergirse en la bohemia y el desenfado de la cultura surf.
+                </p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="img/turistico5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-text">Parque Nacional El Boquerón</h3>
+              <p class="card-text">El Parque nacional El Boquerón es un parque natural de El Salvador que se encuentra en la parte superior del volcán de San Salvador, 
+                a 1800 metros (5905 pies) sobre el nivel del mar, en una cordillera volcánica del departamento La Libertad. ​ En 2008 se consagró al expresidente 
+                Antonio Saca. 54 hectáreas.</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="img/turistico6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-text">Parque Arqueológico Tazumal</h3>
+              <p class="card-text">El sitio arqueológico Tazumal está ubicado en el municipio de Chalchuapa, departamento de Santa Ana, El Salvador a ochenta 
+                kilómetros al occidente de la capital. Se encuentra ubicado dentro del área arqueológica de Chalchuapa, cuya superficie aproximada es de 10 km²
+                 y donde también se localizan los sitios arqueológicos de Peñate, Casa Blanca, El Trapiche y Las Victorias.
+                Su nombre proviene de la finca en donde se encontraban las estructuras principales, cuando iniciaron las excavaciones (por Stanley Boggs) en la
+                década de 1940s​.</p>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-around">
+          <div class="card" style="width: 18rem;">
+            <img src="img/turistico7.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-text">Lago de Coatepeque</h3>
+              <p class="card-text">El lago de Coatepeque es un lago ubicado en una caldera, un supervolcán, que es el resultado de varias erupciones cataclísmicas
+                 que llevaron a la formación y colapso de conos volcánicos en la antigua caldera Chilamatal y luego en la actual caldera. Se encuentra situado a 18
+                  km al sur de la ciudad de Santa Ana, entre el municipio de Santa Ana Centro y el distrito de El Congo (municipio de Santa Ana Este)​</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="img/turistico8.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-text">Las cascadas de tamanique</h3>
+              <p class="card-text">Las Cascadas de Tamanique son un hermoso atractivo turístico ubicado en el departamento de La Libertad, en El Salvador. Se trata 
+                de un conjunto de cascadas de agua cristalina y fresca que caen desde una altura de aproximadamente 30 metros.
+                las Cascadas de Tamanique son un lugar hermoso y emocionante para visitar, es importante respetar el medio ambiente y no dejar basura ni dañar la
+                 flora y fauna del lugar.
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="img/turistico9.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-text">Museo de Arte de El Salvador</h3>
+              <p class="card-text">El Museo de Arte de El Salvador (MARTE), localizado en la ciudad de San Salvador, es una institución privada sin fines de lucro 
+                cuyo funcionamiento es responsabilidad de la Asociación Museo de Arte de El Salvador. Su objetivo es contribuir al desarrollo educativo y cultural 
+                del país mediante la conservación y difusión del arte salvadoreño. Desde 2020 la directora ejecutiva es Eugenia Lindo.</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
       </section>
 
       <script src="js/bootstrap.bundle.min.js"></script>
