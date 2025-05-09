@@ -28,7 +28,7 @@ body{
     margin: 0 auto;
     margin-top: 20px;
   }
-  #informacion, #Historia, #lugares{
+  #informacion, #Historia, #lugares, #table{
     background-color: #F1EFEC;
     color:black;
     margin-top: 30px;
@@ -56,4 +56,12 @@ body{
   }
 .card h4{
     text-align: center;
+}
+#table h3{
+    text-align: center;
+    font-family: monospace;
+}
+ .table th{
+    color: #1A374D;
+    font-family: 'Courier New', Courier, monospace;
 }
